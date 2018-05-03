@@ -1,0 +1,233 @@
+body {
+	background-color: gray;
+	background-size: cover;
+}
+
+p {
+	font-size: 12px;
+	font-family: SimHei;
+	width:300px;
+	color: white;
+}
+
+
+.title {
+    text-align: center;
+    width:400px;
+    height:160px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title img {
+	width: 100%;
+	height: 100%;
+}
+.nothing-1 {
+	margin-left: auto;
+	margin-right: auto;
+	width:900px;
+	height:30px;
+}
+
+.nothing-2 {
+	margin-left: auto;
+	margin-right: auto;
+	width:900px;
+	height:30px;
+}
+
+.main {
+	margin-left: auto;
+	margin-right: auto;
+	width:956px;
+	height:354px;
+}
+
+.row {
+	width:100%;
+	height:100%; 
+	border-radius: 20px;
+	border:0px solid;
+	overflow: hidden;
+}
+
+.thumbnail {
+	border-color:white;
+}
+
+.leftside {
+	background-image:url("background-leftside.png");
+	background-size: cover;
+	height:100%; 
+}
+
+.rightside {
+	height:100%;
+	background-color: white;
+}
+
+.menutitle {
+	font-size: 10px;
+	position:absolute;
+	left:5%;
+	margin-right:5%;
+	width: 250px;
+	height:21px;
+}
+
+.menutitle-tag {
+	position:absolute;
+	left:5%;
+}
+
+.menutitle-text p{
+	position:absolute;
+	left:10%;
+	top:5%;
+	font-size: 16px;
+	font-weight: bold;
+}
+.menutitle-1 {
+	position: absolute;
+	top:5%;
+}
+
+.menutitle-2 {
+	position: absolute;
+	top:40%;
+}
+
+.menutitle-3 {
+	position: absolute;
+	top:75%;
+}
+
+.subtext {
+	position:absolute;
+	left:10%;
+	vertical-align: center;
+}
+
+.subtext p {
+	font-size: 14px;
+}
+
+.subtext-1 {
+	position:absolute;
+	top:15%;
+}
+
+.subtext-2 {
+	position:absolute;
+	top:50%;
+}
+
+.subtext-3 {
+	position:absolute;
+	top:85%;
+}
+
+.subtext img {
+	position:absolute;
+	left:80%;
+	height:14px;
+	margin-top:4px;
+}
+
+.mainpic {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 260px;
+}
+
+.show {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height: 260px;
+}
+
+.show img {
+	width:100%;
+	height:100%;
+}
+
+.leftTag {
+	position:absolute;
+	top:50%;
+	left:2%;
+}
+
+.rightTag {
+	position:absolute;
+	top:50%;
+	right:2%;
+}
+
+.menu {
+	position:absolute;
+	top:270px;
+	left:0px;
+	width: 100%;
+	height: 78px;
+}
+
+.fig-1 {
+	position:absolute;
+	left: 2%;
+}
+
+.fig-2 {
+	position:absolute;
+	left:95.6px;
+}
+
+.fig-3 {
+	position:absolute;
+	left:183.76px;
+}
+
+.fig-4 {
+	position:absolute;
+	left:271.92px;
+}
+
+.fig-5 {
+	position:absolute;
+	left:360.08px;
+}
+
+.fig-6 {
+	position:absolute;
+	left:448.24px;
+}
+
+.fig-7 {
+	position:absolute;
+	left:536.4px;
+}
+
+.fig {
+	width:13%;
+	text-align: center;
+	word-wrap:break-word; 
+	word-break:break-all;
+}
+
+.fig img {
+	margin-left: auto;
+	margin-right:auto;
+	width:40px;
+	height:40px;
+	margin-bottom:5%;
+}
+
+.fig p {
+	font-size: 10px;
+	color:black;
+	width:100%;
+}
