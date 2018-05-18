@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  font-size: 14px;
+  min-width: 810px;
+}
+
+h1, h2, h3, p, img{
+	margin: 0;
+}
+
+ul,
+dl,
+li,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.clear {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: '\20';
+  display: table;
+  height: 0;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.wrapper {
+  width: 810px;
+  margin: 0 auto;
+}
+
+/*header*/
+header {
+	height:260px;
+	margin:0 auto;	
+	background-image: url(../img/TJ.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+header .wrapper > h1 {
+	text-indent: -9999px;
+	width: 487px;
+	height: 130px;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+
+#logo {
+	float: left;
+	display: block;
+	width:487px;
+	height:130px;
+	background-image: url(../img/na.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*header end*/
+/*main*/
+.login {
+	width: 692px;
+	height: 411px;
+	background-image: url(../img/DL3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.login > div {
+	position: relative;
+	left:0;
+	right: 0;
+	width: 466px;
+	height: 68px;
+	border-radius: 12px;
+	border: 1px solid #dbdbdb;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.login div > i {
+	display: inline-block;
+	width: 49px;
+	height: 49px;
+	margin-top: 10px;
+	margin-left: 16px;
+	margin-right: 10px;
+}
+
+.login div > span {
+	display: inline-block;
+	width: 1;
+	height: 49px;
+	background-color: #cacaca;
+}
+
+.login div > input {
+	position: absolute;
+	display: inline-block;
+	border: none;
+	outline: none;
+	line-height: 64px;
+	font-size: 18px;
+	font-weight: bold;
+	color: black; 
+	padding:0px;            
+	vertical-align:middle;
+	left:90px;
+	top:2px;
+}
+
+.login div > input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: black; 
+} 
+.login div > input:-moz-placeholder, textarea:-moz-placeholder { 
+color: black; 
+} 
+.login div > input::-moz-placeholder, textarea::-moz-placeholder { 
+color: black; 
+} 
+.login div > input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: black; 
+} 
+
+.name {
+	margin-top: 64px;
+}
+.name > i {
+	background:url(../img/user.png) no-repeat;
+	background-size: 49px 49px;
+}
+
+.password {
+	margin-top: 27px;
+}
+
+.password > i {
+	background:url(../img/password.png) no-repeat;
+	background-size: 49px 49px;
+}
+
+.login > a {
+	display: block;
+	width: 300px;
+	height: 58px;
+	border-radius: 12px;
+	background:linear-gradient(to right,#f9ae00,#d48602); 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	line-height: 58px;
+	letter-spacing: 8px;
+	vertical-align: middle;
+	font-weight: bold;
+	filter:brightness(0.9);
+}
+
+.login > a:hover {
+	display: block;
+	width: 300px;
+	height: 58px;
+	border-radius: 12px;
+	background:linear-gradient(to right,#f9ae00,#d48602); 
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-decoration: none;
+	color:white;
+	font-size: 16px;
+	line-height: 58px;
+	letter-spacing: 8px;
+	vertical-align: middle;
+	font-weight: bold;
+	filter: brightness(1);
+}
+/*main end*/
+/*footer*/
+footer {
+	height: 388px;
+	margin:0 auto;
+	padding-top: 30px;	
+	background-image: url(../img/DJ.png);
+	background-size: 1920px 388px;
+	background-position: center top; 
+	background-repeat: no-repeat;
+	color:#7d7d7d;
+	box-sizing:border-box;
+	font-size: 18px;
+	text-align: center;
+	overflow: hidden;
+}
+
+footer p {
+	margin-top: 250px;
+}
+
+footer ul {
+	margin: 0 auto;
+	width: 810px;
+}
+
+footer ul>li:nth-child(1){
+	display: inline-block;
+	margin-right: 8px;
+}
+
+footer ul>li:nth-child(2){
+	display: inline-block;
+	margin-right: 8px;
+}
+
+footer ul>li:nth-child(3){
+	display: inline-block;
+	margin-right: 8px;
+}
+
+footer ul>li:nth-child(4){
+	display: inline-block;
+	margin-right: 8px;
+}
+
+footer span {
+	display: block;
+	width: 1920px;
+	height: 1px;
+	background-color:#d5d5d5;
+	margin-top: 8px;
+}
+/*footer end*/
