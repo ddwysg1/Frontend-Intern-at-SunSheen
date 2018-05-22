@@ -1,0 +1,311 @@
+body
+{
+    font-size: 14px;
+
+    min-width: 810px;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p,
+img
+{
+    margin: 0;
+}
+
+ul,
+dl,
+li,
+dd,
+dt
+{
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.clear
+{
+    display: block;
+    clear: both;
+    overflow: hidden;
+
+    height: 0;
+}
+
+.clearfix:after,
+.clearfix:before
+{
+    display: table;
+    clear: both;
+
+    height: 0;
+
+    content: '\20';
+}
+
+.clearfix
+{
+    *zoom: 1;
+}
+
+.wrapper
+{
+    width: 810px;
+    margin: 0 auto;
+}
+
+
+/*header*/
+header
+{
+    background-image: url(../img/TJ.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+header .wrapper > h1
+{
+    width: 487px;
+    height: 130px;
+    margin: 0 auto;
+    margin-top: 130px;
+
+    text-indent: -9999px;
+
+    background-image: url(../img/na.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: contain;
+}
+
+/*header end*/
+/*main*/
+main 
+{
+	padding-bottom: 30px;
+}
+
+.login
+{
+    width: 692px;
+    height: 411px;
+
+    background-image: url(../img/DL3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login > div
+{
+    position: relative;
+    right: 0;
+    left: 0;
+
+    width: 466px;
+    height: 68px;
+    margin-right: auto;
+    margin-left: auto;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,.5);
+}
+
+.login div > i
+{
+    display: inline-block;
+
+    width: 49px;
+    height: 49px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 16px;
+    padding-right: 12px;
+
+    border-right: 1px solid #cacaca;
+}
+
+.login div > input
+{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 64px;
+
+    position: absolute;
+    top: 2px;
+    left: 90px;
+
+    display: inline-block;
+
+    padding: 0;
+
+    vertical-align: middle;
+
+    color: black;
+    border: none;
+    outline: none;
+}
+
+.login div > input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder
+{
+    color: black;
+}
+.login div > input:-moz-placeholder,
+textarea:-moz-placeholder
+{
+    color: black;
+}
+.login div > input::-moz-placeholder,
+textarea::-moz-placeholder
+{
+    color: black;
+}
+.login div > input:-ms-input-placeholder,
+textarea:-ms-input-placeholder
+{
+    color: black;
+}
+
+.name
+{
+    margin-top: 64px;
+}
+.name > i
+{
+    background: url(../img/user.png) no-repeat;
+    background-size: 49px 49px;
+}
+
+.password
+{
+    margin-top: 27px;
+}
+
+.password > i
+{
+    background: url(../img/password.png) no-repeat;
+    background-size: 49px 49px;
+}
+
+.login > input
+{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 58px;
+
+    display: block;
+
+    width: 300px;
+    height: 58px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 8px;
+
+    color: white;
+    border-radius: 12px;
+    background: linear-gradient(to right,#f9ae00,#d48602);
+
+    filter: brightness(.9);
+}
+
+.login > input:hover
+{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 58px;
+
+    display: block;
+
+    width: 300px;
+    height: 58px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    letter-spacing: 8px;
+
+    color: white;
+    border-radius: 12px;
+    background: linear-gradient(to right,#f9ae00,#d48602);
+
+    filter: brightness(1);
+}
+/*main end*/
+
+/*footer*/
+footer
+{
+    font-size: 18px;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+    height: 388px;
+    margin-top: -30px;
+    padding-top: 270px;
+    
+
+    text-align: center;
+
+    color: #7d7d7d;
+    background-image: url(../img/DJ.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 1920px 388px;
+}
+
+footer > div
+{
+    padding-bottom: 12px;
+
+    border-bottom: 1px solid #d5d5d5;
+}
+
+footer ul
+{
+    width: 810px;
+    margin: 0 auto;
+}
+
+footer ul > li:nth-child(1)
+{
+    display: inline-block;
+
+    margin-right: 8px;
+}
+
+footer ul > li:nth-child(2)
+{
+    display: inline-block;
+
+    margin-right: 8px;
+}
+
+footer ul > li:nth-child(3)
+{
+    display: inline-block;
+
+    margin-right: 8px;
+}
+
+footer ul > li:nth-child(4)
+{
+    display: inline-block;
+
+    margin-right: 8px;
+}
+
+/*footer end*/
