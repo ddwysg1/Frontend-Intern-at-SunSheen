@@ -3,4 +3,5 @@ Version 2
 2. Make div.part-1 and div.part-3 "float: left" and div.part-2 and div.part-4 "float: right" to keep the whole part centered.
 
 Version 1
-This is the last exercise.
+1. This is the last exercise.
+2. Swiper3 is used.
